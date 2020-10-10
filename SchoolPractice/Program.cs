@@ -6,7 +6,13 @@ namespace SchoolPractice
     {
         public static void Main(string[] args)
         {
-            // TODO: Test your exercise solutions with print statements here.
+            Student abby = new Student("Abby");
+            Console.WriteLine("Abby's Grade (Before) " + abby.ToString());
+            abby.AddGrade(3, 4.0);
+            Console.WriteLine("Abby's Grade (After) " + abby.ToString());
+            abby.AddGrade(3, 4.0);
+            Console.WriteLine("Abby's Grade (After) " + abby.ToString());
+
         }
     }
 }
